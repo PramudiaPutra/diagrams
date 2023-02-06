@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T07:05:20.141Z" agent="5.0 (X11)" etag="jGdtUaaUk4Hv1wfoCCgU" version="20.8.16" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-06T07:15:52.792Z" agent="5.0 (X11)" etag="4zZT_V7AiEKwU0wuZu7f" version="20.8.16" type="github" pages="2">
   <diagram name="Page-1" id="iesOPW5UEVCXa7-aBT-z">
-    <mxGraphModel dx="618" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1262" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="OLxPLdGhLjk8IfWRgU_C-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="FhdzTXekeuRtPupGvzrz-1" target="OLxPLdGhLjk8IfWRgU_C-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FhdzTXekeuRtPupGvzrz-1" value="create message object of the required type" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FhdzTXekeuRtPupGvzrz-1" value="create message object" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="190" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FhdzTXekeuRtPupGvzrz-6" value="&lt;b&gt;ISO8583 binding - packing&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -94,7 +94,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OLxPLdGhLjk8IfWRgU_C-1" value="invoke specific message handler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OLxPLdGhLjk8IfWRgU_C-1" value="&lt;div&gt;handle message&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="190" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OLxPLdGhLjk8IfWRgU_C-5" value="loop" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
@@ -109,7 +109,7 @@
         <mxCell id="OLxPLdGhLjk8IfWRgU_C-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="OLxPLdGhLjk8IfWRgU_C-11" target="OLxPLdGhLjk8IfWRgU_C-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OLxPLdGhLjk8IfWRgU_C-11" value="registered methods" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OLxPLdGhLjk8IfWRgU_C-11" value="handler methods" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="110" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OLxPLdGhLjk8IfWRgU_C-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FhdzTXekeuRtPupGvzrz-34" target="FhdzTXekeuRtPupGvzrz-1">
